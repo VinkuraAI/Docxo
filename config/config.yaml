@@ -1,0 +1,19 @@
+model:
+  name: facebook/opt-125m 
+  max_length: 512          
+
+dataset:
+  name: wikitext           
+  subset: wikitext-103-v1 
+  split: train            
+
+training:
+  batch_size: 16           
+  num_epochs: 2           
+  learning_rate: 5e-5    
+  local_steps: 5          
+  max_steps: 1000          
+
+logging:
+  log_dir: logs/           
+  checkpoint_dir: checkpoints/  
