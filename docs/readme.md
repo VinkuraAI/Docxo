@@ -26,7 +26,7 @@
 Clone the repo and install packages:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/vinkura/docxo
 cd vinkura_docxo
 pip install -r requirements.txt
 ```
